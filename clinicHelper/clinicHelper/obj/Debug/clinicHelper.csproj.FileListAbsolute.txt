@@ -10,3 +10,21 @@ D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\
 D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.pdb
 D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Lab.resources
 D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Pharmacy.resources
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\clinicHelper.exe.config
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.exe
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.pdb
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\clinicHelper.exe
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\clinicHelper.pdb
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\mscorlib.dll
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\normidna.nlp
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\normnfc.nlp
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\normnfd.nlp
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\normnfkc.nlp
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\normnfkd.nlp
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.csprojResolveAssemblyReference.cache
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Form1.resources
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Lab.resources
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Pharmacy.resources
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Properties.Resources.resources
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Reception.resources
+C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.csproj.GenerateResource.Cache

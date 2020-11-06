@@ -36,7 +36,7 @@ namespace clinicHelper
                 if (textBoxUn.Text == reader.GetString(3) && textBoxPw.Text == reader.GetString(4))
                 {//للتاكد من وجود هذا الاسم وكلمة السر في قاعدة البيانات
                     userType = reader.GetString(5);
-                    info.userID = reader.GetInt64(0);
+                   // info.userID = reader.GetInt64(0);
 
 
                 }
