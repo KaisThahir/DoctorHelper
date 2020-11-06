@@ -1,0 +1,12 @@
+C:\Users\kais\AppData\Local\Temporary Projects\clinicHelper\bin\Debug\clinicHelper.exe.config
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\bin\Debug\clinicHelper.exe.config
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\bin\Debug\clinicHelper.exe
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\bin\Debug\clinicHelper.pdb
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.csprojResolveAssemblyReference.cache
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Form1.resources
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Properties.Resources.resources
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.csproj.GenerateResource.Cache
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.exe
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.pdb
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Lab.resources
+D:\كروب برمجة سي شارب\clinicHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Pharmacy.resources
