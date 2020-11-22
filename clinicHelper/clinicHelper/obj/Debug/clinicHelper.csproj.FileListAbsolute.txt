@@ -31,6 +31,9 @@ C:\Users\ayub\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\
 D:\كروب برمجة سي شارب\clinicHelper\public DoctorHelper on git\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\clinicHelper.exe.config
 D:\كروب برمجة سي شارب\clinicHelper\public DoctorHelper on git\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.exe
 D:\كروب برمجة سي شارب\clinicHelper\public DoctorHelper on git\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.pdb
+C:\Users\GAME OVER\Desktop\copyOfProgram\clinicHelper\clinicHelper\bin\Debug\clinicHelper.exe.config
+C:\Users\GAME OVER\Desktop\copyOfProgram\clinicHelper\clinicHelper\obj\Debug\clinicHelper.exe
+C:\Users\GAME OVER\Desktop\copyOfProgram\clinicHelper\clinicHelper\obj\Debug\clinicHelper.pdb
 C:\Users\GAME OVER\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\bin\Debug\clinicHelper.exe.config
 C:\Users\GAME OVER\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.exe
 C:\Users\GAME OVER\Documents\GitHub\DoctorHelper\clinicHelper\clinicHelper\obj\Debug\clinicHelper.pdb
