@@ -57,6 +57,36 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBackups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBackups.Designer.cs">
+      <DependentUpon>frmBackups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmClinicStaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmClinicStaff.Designer.cs">
+      <DependentUpon>FrmClinicStaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecipe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecipe.Designer.cs">
+      <DependentUpon>frmRecipe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRevenuesExpenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRevenuesExpenses.Designer.cs">
+      <DependentUpon>FrmRevenuesExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransformation.Designer.cs">
+      <DependentUpon>frmTransformation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +94,12 @@
       <DependentUpon>Lab.cs</DependentUpon>
     </Compile>
     <Compile Include="MyClass.cs" />
+    <Compile Include="Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Patient.Designer.cs">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pharmacy.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,8 +120,26 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmBackups.resx">
+      <DependentUpon>frmBackups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmClinicStaff.resx">
+      <DependentUpon>FrmClinicStaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecipe.resx">
+      <DependentUpon>frmRecipe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRevenuesExpenses.resx">
+      <DependentUpon>FrmRevenuesExpenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransformation.resx">
+      <DependentUpon>frmTransformation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab.resx">
       <DependentUpon>Lab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Patient.resx">
+      <DependentUpon>Patient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pharmacy.resx">
       <DependentUpon>Pharmacy.cs</DependentUpon>
@@ -98,6 +152,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Reception.resx">
       <DependentUpon>Reception.cs</DependentUpon>
@@ -114,6 +169,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\طبيبة.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
