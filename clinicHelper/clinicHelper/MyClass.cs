@@ -9,6 +9,7 @@ namespace clinicHelper
     class MyClass
     {
         int kais;
+        int adham;
         public string connectionString = "Server=GAMEOVER-PC;Database=clinic;User Id=reyam;Password=12345678;";
        // public Int64 userID;
     }
