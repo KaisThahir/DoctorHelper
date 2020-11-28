@@ -8,7 +8,9 @@ namespace clinicHelper
 {
     class MyClass
     {
-        public string connectionString = @"Server=AYUB\SQLEXPRESS;Database=clinic;User Id=sa;Password=12345678;";
-        public Int64 userID;
+        int kais;
+        int adham;
+        public string connectionString = "Server=GAMEOVER-PC;Database=clinic;User Id=reyam;Password=12345678;";
+       // public Int64 userID;
     }
 }

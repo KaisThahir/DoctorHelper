@@ -48,7 +48,7 @@ namespace clinicHelper
                 case "Doctor":
                     Doctor dForm = new Doctor();
                     dForm.Show();
-                    //this.Hide();
+                    this.Hide();
                     break;
                 case "Reception":
                     Reception rForm = new Reception();
