@@ -69,6 +69,12 @@
     <Compile Include="FrmClinicStaff.Designer.cs">
       <DependentUpon>FrmClinicStaff.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManager.Designer.cs">
+      <DependentUpon>frmManager.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRecipe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,12 +100,6 @@
       <DependentUpon>Lab.cs</DependentUpon>
     </Compile>
     <Compile Include="MyClass.cs" />
-    <Compile Include="Patient.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Patient.Designer.cs">
-      <DependentUpon>Patient.cs</DependentUpon>
-    </Compile>
     <Compile Include="Pharmacy.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +126,9 @@
     <EmbeddedResource Include="FrmClinicStaff.resx">
       <DependentUpon>FrmClinicStaff.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmManager.resx">
+      <DependentUpon>frmManager.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmRecipe.resx">
       <DependentUpon>frmRecipe.cs</DependentUpon>
     </EmbeddedResource>
@@ -137,9 +140,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Lab.resx">
       <DependentUpon>Lab.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Patient.resx">
-      <DependentUpon>Patient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pharmacy.resx">
       <DependentUpon>Pharmacy.cs</DependentUpon>
@@ -172,6 +172,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\طبيبة.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\مدير1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

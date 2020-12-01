@@ -56,3 +56,4 @@ D:\Git Hub\clinicHelper\clinicHelper\obj\Debug\clinicHelper.Reception.resources
 D:\Git Hub\clinicHelper\clinicHelper\obj\Debug\clinicHelper.csproj.GenerateResource.Cache
 D:\Git Hub\clinicHelper\clinicHelper\obj\Debug\clinicHelper.frmRecipe.resources
 D:\Git Hub\clinicHelper\clinicHelper\obj\Debug\clinicHelper.frmTransformation.resources
+D:\Git Hub\clinicHelper\clinicHelper\obj\Debug\clinicHelper.frmManager.resources

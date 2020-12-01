@@ -18,7 +18,7 @@ namespace clinicHelper
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            Doctor D = new Doctor();
+            frmManager D = new frmManager();
             D.Show();
             this.Hide();
         }

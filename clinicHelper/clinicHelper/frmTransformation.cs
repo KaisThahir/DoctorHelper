@@ -18,7 +18,7 @@ namespace clinicHelper
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            frmPatient P = new frmPatient();
+            Doctor P = new Doctor();
             P.Show();
             this.Close();
         }
