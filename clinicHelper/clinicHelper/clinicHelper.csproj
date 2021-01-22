@@ -114,6 +114,12 @@
     <Compile Include="Reception.Designer.cs">
       <DependentUpon>Reception.cs</DependentUpon>
     </Compile>
+    <Compile Include="ادارة الصيدلية.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ادارة الصيدلية.Designer.cs">
+      <DependentUpon>ادارة الصيدلية.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Doctor.resx">
       <DependentUpon>Doctor.cs</DependentUpon>
     </EmbeddedResource>
@@ -156,6 +162,9 @@
     </Compile>
     <EmbeddedResource Include="Reception.resx">
       <DependentUpon>Reception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ادارة الصيدلية.resx">
+      <DependentUpon>ادارة الصيدلية.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

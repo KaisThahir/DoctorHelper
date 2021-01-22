@@ -357,7 +357,7 @@
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnRecipe);
             this.Controls.Add(this.ClinicDiagnosis);
-            this.Name = "Doctor";
+           // this.Name = "Doctor";
             this.Text = "Doctor";
             this.tabPatient.ResumeLayout(false);
             this.tabPatientWait.ResumeLayout(false);

@@ -51,6 +51,7 @@
             this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Addicted = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -60,11 +61,12 @@
             // 
             this.btnName.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnName.ForeColor = System.Drawing.SystemColors.Menu;
-            this.btnName.Location = new System.Drawing.Point(6, 19);
+            this.btnName.Location = new System.Drawing.Point(8, 23);
+            this.btnName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnName.Multiline = true;
             this.btnName.Name = "btnName";
             this.btnName.ReadOnly = true;
-            this.btnName.Size = new System.Drawing.Size(274, 42);
+            this.btnName.Size = new System.Drawing.Size(364, 51);
             this.btnName.TabIndex = 20;
             this.btnName.Text = "Name Patient";
             this.btnName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -73,9 +75,10 @@
             // 
             this.rdobtnXRay.AutoSize = true;
             this.rdobtnXRay.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdobtnXRay.Location = new System.Drawing.Point(172, 109);
+            this.rdobtnXRay.Location = new System.Drawing.Point(229, 134);
+            this.rdobtnXRay.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdobtnXRay.Name = "rdobtnXRay";
-            this.rdobtnXRay.Size = new System.Drawing.Size(60, 22);
+            this.rdobtnXRay.Size = new System.Drawing.Size(73, 27);
             this.rdobtnXRay.TabIndex = 19;
             this.rdobtnXRay.TabStop = true;
             this.rdobtnXRay.Text = "XRay";
@@ -85,9 +88,10 @@
             // 
             this.rdobtnDoctor.AutoSize = true;
             this.rdobtnDoctor.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdobtnDoctor.Location = new System.Drawing.Point(172, 76);
+            this.rdobtnDoctor.Location = new System.Drawing.Point(229, 94);
+            this.rdobtnDoctor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdobtnDoctor.Name = "rdobtnDoctor";
-            this.rdobtnDoctor.Size = new System.Drawing.Size(69, 22);
+            this.rdobtnDoctor.Size = new System.Drawing.Size(86, 27);
             this.rdobtnDoctor.TabIndex = 18;
             this.rdobtnDoctor.TabStop = true;
             this.rdobtnDoctor.Text = "Doctor";
@@ -97,9 +101,10 @@
             // 
             this.rdobtnAnalyzes.AutoSize = true;
             this.rdobtnAnalyzes.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdobtnAnalyzes.Location = new System.Drawing.Point(6, 81);
+            this.rdobtnAnalyzes.Location = new System.Drawing.Point(8, 100);
+            this.rdobtnAnalyzes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdobtnAnalyzes.Name = "rdobtnAnalyzes";
-            this.rdobtnAnalyzes.Size = new System.Drawing.Size(83, 22);
+            this.rdobtnAnalyzes.Size = new System.Drawing.Size(102, 27);
             this.rdobtnAnalyzes.TabIndex = 17;
             this.rdobtnAnalyzes.TabStop = true;
             this.rdobtnAnalyzes.Text = "Analyzes";
@@ -109,9 +114,10 @@
             // 
             this.rdobtnEco.AutoSize = true;
             this.rdobtnEco.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdobtnEco.Location = new System.Drawing.Point(6, 109);
+            this.rdobtnEco.Location = new System.Drawing.Point(8, 134);
+            this.rdobtnEco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdobtnEco.Name = "rdobtnEco";
-            this.rdobtnEco.Size = new System.Drawing.Size(49, 22);
+            this.rdobtnEco.Size = new System.Drawing.Size(61, 27);
             this.rdobtnEco.TabIndex = 16;
             this.rdobtnEco.TabStop = true;
             this.rdobtnEco.Text = "Eco";
@@ -125,9 +131,11 @@
             this.groupBox2.Controls.Add(this.rdobtnAnalyzes);
             this.groupBox2.Controls.Add(this.btnScanner);
             this.groupBox2.Controls.Add(this.rdobtnEco);
-            this.groupBox2.Location = new System.Drawing.Point(366, 6);
+            this.groupBox2.Location = new System.Drawing.Point(488, 7);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(411, 146);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(548, 180);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "PatientAattachments";
@@ -136,9 +144,10 @@
             // 
             this.btnScanner.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnScanner.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScanner.Location = new System.Drawing.Point(282, 89);
+            this.btnScanner.Location = new System.Drawing.Point(376, 110);
+            this.btnScanner.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnScanner.Name = "btnScanner";
-            this.btnScanner.Size = new System.Drawing.Size(114, 42);
+            this.btnScanner.Size = new System.Drawing.Size(152, 52);
             this.btnScanner.TabIndex = 14;
             this.btnScanner.Text = "Scanner";
             this.btnScanner.UseVisualStyleBackColor = false;
@@ -149,9 +158,11 @@
             this.groupBox1.Controls.Add(this.btnSearch);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.rdobtnNumber);
-            this.groupBox1.Location = new System.Drawing.Point(4, 6);
+            this.groupBox1.Location = new System.Drawing.Point(5, 7);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(343, 146);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(457, 180);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Find Patient";
@@ -160,9 +171,10 @@
             // 
             this.rdobtnName.AutoSize = true;
             this.rdobtnName.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdobtnName.Location = new System.Drawing.Point(6, 76);
+            this.rdobtnName.Location = new System.Drawing.Point(8, 94);
+            this.rdobtnName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdobtnName.Name = "rdobtnName";
-            this.rdobtnName.Size = new System.Drawing.Size(114, 22);
+            this.rdobtnName.Size = new System.Drawing.Size(143, 27);
             this.rdobtnName.TabIndex = 17;
             this.rdobtnName.TabStop = true;
             this.rdobtnName.Text = "Name Patient";
@@ -172,9 +184,10 @@
             // 
             this.btnSearch.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSearch.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(223, 89);
+            this.btnSearch.Location = new System.Drawing.Point(297, 110);
+            this.btnSearch.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(114, 42);
+            this.btnSearch.Size = new System.Drawing.Size(152, 52);
             this.btnSearch.TabIndex = 14;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = false;
@@ -183,10 +196,11 @@
             // 
             this.textBox1.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.Menu;
-            this.textBox1.Location = new System.Drawing.Point(6, 19);
+            this.textBox1.Location = new System.Drawing.Point(8, 23);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(331, 42);
+            this.textBox1.Size = new System.Drawing.Size(440, 51);
             this.textBox1.TabIndex = 15;
             this.textBox1.Text = "Name Or Number Patient";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -195,9 +209,10 @@
             // 
             this.rdobtnNumber.AutoSize = true;
             this.rdobtnNumber.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdobtnNumber.Location = new System.Drawing.Point(6, 109);
+            this.rdobtnNumber.Location = new System.Drawing.Point(8, 134);
+            this.rdobtnNumber.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdobtnNumber.Name = "rdobtnNumber";
-            this.rdobtnNumber.Size = new System.Drawing.Size(78, 22);
+            this.rdobtnNumber.Size = new System.Drawing.Size(99, 27);
             this.rdobtnNumber.TabIndex = 16;
             this.rdobtnNumber.TabStop = true;
             this.rdobtnNumber.Text = "Number";
@@ -266,21 +281,29 @@
             this.ChronicDisease,
             this.Smoked,
             this.Addicted,
-            this.Pregnant});
-            this.dataGridView1.Location = new System.Drawing.Point(4, 158);
+            this.Pregnant,
+            this.Column1});
+            this.dataGridView1.Location = new System.Drawing.Point(5, 194);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(792, 326);
+            this.dataGridView1.Size = new System.Drawing.Size(1056, 401);
             this.dataGridView1.TabIndex = 20;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Column1";
+            this.Column1.Name = "Column1";
             // 
             // Reception
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 491);
+            this.ClientSize = new System.Drawing.Size(1067, 604);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
-            this.Name = "Reception";
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            //this.Name = "Reception";
             this.Text = "Reception";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
@@ -316,6 +339,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Name;
         private System.Windows.Forms.DataGridViewTextBoxColumn Addicted;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewButtonColumn Column1;
 
     }
 }

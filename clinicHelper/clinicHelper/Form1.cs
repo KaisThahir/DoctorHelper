@@ -27,7 +27,6 @@ namespace clinicHelper
             {//للتاكد من عدم فراغ مربعين النص 
             //string connectionStr = "Data Source=KAIS1-PC;Initial Catalog=clinic;User ID=aa;Password=12345678 providerName=System.Data.SqlClient";
             SqlConnection con = new SqlConnection(info.connectionString);
-            //string sqlStatment = "SELECT * FROM [clinic].[dbo].[users]";
             string sqlStatment = "SELECT * FROM [clinic].[dbo].[users]";
             SqlCommand cmd = new SqlCommand(sqlStatment, con);
             con.Open();
